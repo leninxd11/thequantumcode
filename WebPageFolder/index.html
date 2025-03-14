@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quantum Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .circular-logo {
+      border-radius: 50%;
+      width: 60px; /* Increased size */
+      height: 60px; /* Increased size */
+    }
+    h1 {
+      font-size: 2.5em; /* Increased size */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+        The Quantum Code
+        <img src="logoforweb.jpg" alt="Website Logo" class="circular-logo">
+      </h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <label for="menu">Topics:</label>
+          <select id="menu" name="menu" onchange="location = this.value;">
+            <option value="#">Select a topic</option>
+            <option value="physics.html">Physics</option>
+            <option value="biographies.html">Biographies</option>
+            <option value="math.html">Math</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="articles">
+      <h2>Recent Articles</h2>
+      <article>
+        <h3>A Brief Summary of Quantum Mechanics History</h3>
+        <p>
+          Quantum physics reveals the strange and fascinating behavior of matter and energy at the smallest scales.
+          <a href="article1.html">Read more...</a>
+        </p>
+      </article>
+      <article>
+        <h3>The History of the Manhattan Project</h3>
+        <p>
+          The History of the Manhattan Project <a href="article2.html">Read more...</a>
+        </p>
+      </article>
+    </section>
+
+    <section class="biographies">
+      <article>
+        <h3>Richard Feynman</h3>
+        <p>
+          Richard Feynman was an American physicist known for his work in quantum electrodynamics and particle physics.
+          <a href="feynman.html">Read more...</a>
+        </p>
+      </article>
+      <article>
+        <h3>J. Robert Oppenheimer</h3>
+        <p>
+          J. Robert Oppenheimer was an American theoretical physicist and the scientific director of the Manhattan Project.
+          <a href="oppenheimer.html">Read more...</a>
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Quantum Code</p>
+    <a href="https://www.instagram.com/the_quantumcode/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Instagram" width="40" height="40" title="Instagram">
+    </a>
+  </footer>
+</body>
+</html>

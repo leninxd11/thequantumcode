@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quantum Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .circular-logo {
+      border-radius: 50%;
+      width: 60px; /* Increased size */
+      height: 60px; /* Increased size */
+    }
+    h1 {
+      font-size: 2.5em; /* Increased size */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+        The Quantum Code
+        <img src="logoforweb.jpg" alt="Website Logo" class="circular-logo">
+      </h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <label for="menu">Topics:</label>
+          <select id="menu" name="menu" onchange="location = this.value;">
+            <option value="#">Select a topic</option>
+            <option value="physics.html">Physics</option>
+            <option value="biographies.html">Biographies</option>
+            <option value="math.html">Math</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>The Fibonacci Sequence</h2>
+      <p>
+        The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
+        It appears in many different areas of mathematics and science, including the branching of trees, the arrangement of leaves on a stem, and the spiral patterns of shells.
+      </p>
+      <p>
+        One curious fact about the Fibonacci sequence is that the ratio of successive Fibonacci numbers approximates the golden ratio (approximately 1.61803398875), which is often associated with aesthetically pleasing proportions in art and architecture.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Fibonacci_Squares.svg/768px-Fibonacci_Squares.svg.png?20220118171439" alt="Fibonacci Spiral" title="Fibonacci Spiral">
+      <h3>Mathematical Properties</h3>
+      <p>
+        The Fibonacci sequence can be defined by the recurrence relation:
+        <br>
+        F(n) = F(n-1) + F(n-2)
+        <br>
+        with seed values F(0) = 0 and F(1) = 1.
+      </p>
+      <p>
+        The sequence has many interesting properties, such as:
+        <ul>
+          <li>The sum of the first n Fibonacci numbers is equal to the (n+2)th Fibonacci number minus 1.</li>
+          <li>Every third Fibonacci number is even, and every fourth Fibonacci number is a multiple of 3.</li>
+        </ul>
+      </p>
+      <h3>Applications in Nature</h3>
+      <p>
+        The Fibonacci sequence appears in various natural phenomena:
+        <ul>
+          <li>The arrangement of leaves on a stem and the number of petals on flowers often follow the Fibonacci sequence.</li>
+          <li>The branching patterns of trees and the arrangement of pine cones and pineapples are also related to the sequence.</li>
+          <li>The spiral patterns of shells and hurricanes can be described using Fibonacci numbers.</li>
+        </ul>
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Spiraliform1.jpg/1920px-Spiraliform1.jpg" alt="Fibonacci in Nature" title="Fibonacci in Nature">
+      <h3>Applications in Art and Architecture</h3>
+      <p>
+        The golden ratio, closely related to the Fibonacci sequence, is often used in art and architecture to create aesthetically pleasing compositions.
+        Examples include:
+        <ul>
+          <li>The Parthenon in Greece and the pyramids of Egypt are said to incorporate the golden ratio in their design.</li>
+          <li>Many famous paintings, such as those by Leonardo da Vinci, use the golden ratio to achieve balance and harmony.</li>
+        </ul>
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Trinity_Trumpet_Fibonacci_Pattern.jpg/1125px-Trinity_Trumpet_Fibonacci_Pattern.jpg?20160909044909" alt="Fibonacci in Art" title="Fibonacci in Art">
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Quantum Code</p>
+    <a href="https://www.instagram.com/the_quantumcode/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Instagram" width="40" height="40">
+    </a>
+  </footer>
+</body>
+</html>

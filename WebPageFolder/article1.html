@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quantum Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .circular-logo {
+      border-radius: 50%;
+      width: 60px; /* Increased size */
+      height: 60px; /* Increased size */
+    }
+    h1 {
+      font-size: 2.5em; /* Increased size */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+        The Quantum Code
+        <img src="logoforweb.jpg" alt="Website Logo" class="circular-logo">
+      </h1>      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <label for="menu">Topics:</label>
+          <select id="menu" name="menu" onchange="location = this.value;">
+            <option value="#">Select a topic</option>
+            <option value="physics.html">Physics</option>
+            <option value="biographies.html">Biographies</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>The Fathers of Quantum Mechanics</h2>
+      <p>
+        We know that quantum mechanics focuses on the study on atomic and sub-atomic particles.
+        At the beginning of the 1900 century scientists thought that this region was also dominated by the laws of classical physics. Lord Kelvin,
+        an old school physicist, told young people to study accountancy instead of physics because he thought that there was nothing new to discover.
+        However, Lord Kelvin was wrong.
+      </p>
+      <img src="https://media.gettyimages.com/id/141551186/photo/the-british-physicist-william-thomson-kelvin-showing-his-instrument-of-measurement-1880s.jpg?s=612x612&w=0&k=20&c=wDCoR9r-wF7vbuEroHIkdPUeK82AXPErNj7Q-d9zVng=" alt="Lord Kelvin" class="img-small">
+     <p>Lord Kelvin</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Max_Planck_%281858-1947%29.jpg/547px-Max_Planck_%281858-1947%29.jpg" alt="Max Planck" class="img-small">
+      <p>
+        In 1900, Max Planck introduced the idea that energy is quantized, or exists in discrete units. This idea was revolutionary and laid the foundation for quantum mechanics.
+        Planck's work inspired Albert Einstein, who in 1905 proposed that light is quantized in particles called photons. This work earned him the Nobel Prize in Physics in 1921.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Niels_Bohr.jpg/640px-Niels_Bohr.jpg" alt="Niels Bohr" class="img-small">
+      <p>
+        Niels Bohr, a Danish physicist, introduced the idea that electrons orbit the nucleus of an atom in discrete energy levels. This model of the atom was the first to incorporate quantum theory.
+        Bohr's model was further developed by Erwin Schrödinger, who formulated a wave equation that describes the behavior of electrons in an atom.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bundesarchiv_Bild183-R57262%2C_Werner_Heisenberg.jpg/640px-Bundesarchiv_Bild183-R57262%2C_Werner_Heisenberg.jpg" alt="Werner Heisenberg" class="img-small">
+      <p>
+        Werner Heisenberg formulated the uncertainty principle, which states that it is impossible to know both the position and momentum of a particle with absolute certainty.
+        This principle challenged the classical notion of determinism and laid the groundwork for the field of quantum mechanics.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/800px-Albert_Einstein_Head.jpg" alt="Albert Einstein" class="img-small">
+      <p>
+        Albert Einstein, despite his contributions to quantum theory, was famously skeptical of its implications. He is known for his quote, "God does not play dice with the universe," expressing his discomfort with the probabilistic nature of quantum mechanics.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Pauli.jpg" alt="Wolfgang Pauli" class="img-small">
+      <p>
+        Wolfgang Pauli, an Austrian physicist, is known for the Pauli exclusion principle, which states that no two electrons can occupy the same quantum state simultaneously. This principle is fundamental to the structure of atoms and the behavior of matter.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Richard_Feynman_undated.png/640px-Richard_Feynman_undated.png" alt="Richard Feynman" class="img-small">
+      <p>
+        Richard Feynman, an American physicist, made significant contributions to the development of quantum electrodynamics (QED). He introduced the Feynman diagrams, which are graphical representations of particle interactions.
+      </p>
+      <p>
+        <button onclick="location.href='feynman.html'">Learn More About Richard Feynman</button>
+      </p>
+      <p>
+        This field of physics is at the core of modern technology, from semiconductors to quantum computing.
+        Scientists continue to explore its mysteries, challenging our understanding of reality.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Paul_Dirac%2C_1933.jpg" alt="Paul Dirac" class="img-small">
+      <p>
+        Paul Dirac, an English theoretical physicist, made fundamental contributions to the early development of both quantum mechanics and quantum electrodynamics. He formulated the Dirac equation, which describes the behavior of fermions and predicted the existence of antimatter.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif" alt="John von Neumann" class="img-small">
+      <p>
+        John von Neumann, a Hungarian-American mathematician, made significant contributions to the mathematical foundations of quantum mechanics. He developed the formalism of quantum mechanics using linear algebra and operator theory, which provided a rigorous mathematical framework for the theory.
+      </p>
+      <p>
+        The role of linear algebra in quantum mechanics is crucial. The state of a quantum system is represented by a vector in a complex vector space, and physical observables are represented by linear operators acting on these vectors. This mathematical structure allows for the precise description and prediction of quantum phenomena.
+      </p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Quantum Code</p>
+    <a href="https://www.instagram.com/the_quantumcode/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Instagram" width="40" height="40">
+    </a>
+  </footer>
+</body>
+</html>

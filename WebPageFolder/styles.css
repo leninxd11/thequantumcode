@@ -1,0 +1,167 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #004466;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+header h1 img {
+  margin-left: 10px;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Article Styling */
+article {
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article p {
+  margin-bottom: 1.5rem;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background: #004466;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin-right: 10px;
+}
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #004466;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+header h1 img {
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Article Styling */
+article {
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article p {
+  margin-bottom: 1.5rem;
+}
+
+article img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background: #004466;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin-right: 10px;
+}
+
+article p {
+  margin-bottom: 1.5rem;
+}

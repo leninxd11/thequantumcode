@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quantum Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .circular-logo {
+      border-radius: 50%;
+      width: 60px; /* Increased size */
+      height: 60px; /* Increased size */
+    }
+    h1 {
+      font-size: 2.5em; /* Increased size */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+        The Quantum Code
+        <img src="logoforweb.jpg" alt="Website Logo" class="circular-logo">
+      </h1>      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <label for="menu">Topics:</label>
+          <select id="menu" name="menu" onchange="location = this.value;">
+            <option value="#">Select a topic</option>
+            <option value="physics.html">Physics</option>
+            <option value="biographies.html">Biographies</option>
+          </select>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>The History of the Manhattan Project</h2>
+     <p>The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. It was led by the United States with the support of the United Kingdom and Canada. From 1942 to 1946, the project was under the direction of Major General Leslie Groves of the U.S. Army Corps of Engineers. Nuclear physicist Robert Oppenheimer was the director of the Los Alamos Laboratory that designed the actual bombs.</p>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Groves_and_Oppenheimer.jpg/640px-Groves_and_Oppenheimer.jpg"alt="Robert Oppenheimer" class="img-small">
+      <p>
+        <button onclick="location.href='oppenheimer.html'">Learn More About J. Robert Oppenheimer</button>
+      </p>
+     <h2>Origins</h2>
+      <p>The project began modestly in 1939, but grew to employ more than 130,000 people and cost nearly US$2 billion (about $23 billion in 2020 dollars). Over 90% of the cost was for building factories and producing fissile material, with less than 10% for development and production of the weapons. Research and production took place at more than 30 sites across the United States, the United Kingdom, and Canada.</p>
+      
+      <h2>Development</h2>
+      <p>Two types of atomic bombs were developed during the war. A relatively simple gun-type fission weapon was made using uranium-235, an isotope that makes up only 0.7 percent of natural uranium. Since it is chemically identical to the most common isotope, uranium-238, and has almost the same mass, it proved difficult to separate the two. Three methods were employed for uranium enrichment: electromagnetic, gaseous, and thermal. Most of this work was performed at Oak Ridge, Tennessee.</p>
+      
+      <h2>Impact</h2>
+      <p>The project culminated in the atomic bombings of Hiroshima and Nagasaki in August 1945, which contributed to the end of World War II. The Manhattan Project also marked the beginning of the atomic age, leading to the development of nuclear power and the Cold War arms race.</p>
+      
+      <h2>Legacy</h2>
+      <p>The Manhattan Project left a lasting legacy on science, technology, and international relations. It led to the establishment of the Atomic Energy Commission and the development of nuclear energy for peaceful purposes. The ethical and moral implications of nuclear weapons continue to be a topic of debate and concern.</p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Quantum Code</p>
+    <a href="https://www.instagram.com/the_quantumcode/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Instagram" width="40" height="40">
+    </a>
+  </footer>
+</body>
+</html>

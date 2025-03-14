@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Quantum Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .circular-logo {
+      border-radius: 50%;
+      width: 60px; /* Increased size */
+      height: 60px; /* Increased size */
+    }
+    h1 {
+      font-size: 2.5em; /* Increased size */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+        The Quantum Code
+        <img src="logoforweb.jpg" alt="Website Logo" class="circular-logo">
+      </h1>      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <label for="menu">Topics:</label>
+          <select id="menu" name="menu" onchange="location = this.value;">
+            <option value="#">Select a topic</option>
+            <option value="physics.html">Physics</option>
+            <option value="biographies.html">Biographies</option>
+            <option value="math.html">Math</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>J. Robert Oppenheimer</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/J._Robert_Oppenheimer_at_the_Guest_Lodge%2C_Oak_Ridge%2C_in_1946_4.jpg/640px-J._Robert_Oppenheimer_at_the_Guest_Lodge%2C_Oak_Ridge%2C_in_1946_4.jpg" alt="Robert Oppenheimer" class="img-small">
+      <p>J. Robert Oppenheimer was an American theoretical physicist and the scientific director of the Manhattan Project. He is often called the "father of the atomic bomb" for his role in the project that developed the first nuclear weapons during World War II.</p>
+      <h3>Early Life and Education</h3>
+      <p>Born on April 22, 1904, in New York City, Oppenheimer was a brilliant student who excelled in science and languages. He attended Harvard University, where he studied chemistry, and later went to the University of Cambridge to study physics under J.J. Thomson. He completed his Ph.D. at the University of Göttingen in Germany, where he worked with Max Born and other prominent physicists.</p>
+      <h3>Manhattan Project</h3>
+      <p>In 1942, Oppenheimer was appointed as the scientific director of the Manhattan Project. He led a team of scientists at the Los Alamos Laboratory in New Mexico, where they developed the first atomic bombs. The project culminated in the successful test of the bomb on July 16, 1945, in the New Mexico desert, an event known as the Trinity test.</p>
+      <h3>Later Years and Legacy</h3>
+      <p>After the war, Oppenheimer became a chief advisor to the newly created United States Atomic Energy Commission, where he advocated for international control of nuclear power and opposed the development of the hydrogen bomb. His stance led to a controversial security hearing in 1954, where he was stripped of his security clearance.</p>
+      <h3>Curiosities</h3>
+      <ul>
+        <li>Oppenheimer was known for his love of literature and could read and write in several languages, including Sanskrit.</li>
+        <li>He famously quoted the Bhagavad Gita after the Trinity test, saying, "Now I am become Death, the destroyer of worlds."</li>
+        <li>Despite his pivotal role in the development of nuclear weapons, Oppenheimer had complex feelings about their use and the ethical implications.</li>
+      </ul>
+      <p>Oppenheimer's life and work have been the subject of numerous books and films, including the biography "American Prometheus" by Kai Bird and Martin J. Sherwin, which provides an in-depth look at his contributions to science and his complex legacy.</p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Quantum Code</p>
+    <a href="https://www.instagram.com/the_quantumcode/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt="Instagram" width="40" height="40">
+    </a>
+  </footer>
+</body>
+</html>
